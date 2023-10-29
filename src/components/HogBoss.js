@@ -40,9 +40,9 @@ function HogBoss() {
         <img id="boss-blaster" src={Boss} alt="" />
       </div>
       <ul className="hoglist">
-        <BabyHog />
-        <BabyHog />
-        <BabyHog />
+        <BabyHog eyeColors = {eyeColor} id = "0"/>
+        <BabyHog eyeColors = {eyeColor} id = "1"/>
+        <BabyHog eyeColors = {eyeColor} id = "2"/>
       </ul>
     </div>
   );
