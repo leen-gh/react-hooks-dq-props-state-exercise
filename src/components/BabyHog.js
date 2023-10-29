@@ -10,7 +10,6 @@ import data from "../data"
 
 function BabyHog(props) {
   const [babyWeight, setWeight] = useState(1);
-  const [babyImg, setImg] = useState(normalBaby);
   const idd = props.id
   //console.log(idd)
   const babyData = data[idd]
@@ -41,7 +40,6 @@ function BabyHog(props) {
       setWeight(babyWeight+1)
     :
       (babyWeight > 0) && setWeight(babyWeight-1)
-
   }
   function handleChange(event) {
    
